@@ -28,7 +28,7 @@ Aplicação web desenvolvida como desafio técnico frontend, consumindo a [Rick 
 
 ## Decisões técnicas
 
-- **React** foi escolhido por ser o framework que tenho mais familiaridade e domínio
+- **React** foi escolhido por ser o framework que tenho mais familiaridade e domínio e curva de aprendizado é mais leve ideal bastante usado no mercado.
 - **Context API** foi escolhido no lugar do Redux por ser suficiente para o escopo do projeto, sem overhead desnecessário
 - **Zod** foi escolhido para validação de schemas por ter ótima integração com React Hook Form
 - **Tailwind CSS** foi escolhido pela agilidade na criação de layouts responsivos
@@ -69,9 +69,8 @@ Este projeto foi desenvolvido com auxílio do Inner Ai.
 - Como usar forwardRef em componentes reutilizáveis
 - Como funciona o debounce para otimizar buscas
 
-## 📁 Estrutura do projeto
-
-​```
+## Estrutura do projeto
+```text
 src/
 │   App.jsx
 │   index.css
@@ -103,7 +102,7 @@ src/
 │
 └───services/
         api.js
-​```
+```
 
 ## Como rodar o projeto
 ```bash
